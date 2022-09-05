@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "439509256956",
+    "firebase_url": "https://pet-feeder-73084-default-rtdb.firebaseio.com",
+    "project_id": "pet-feeder-73084",
+    "storage_bucket": "pet-feeder-73084.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439509256956:android:35cfdcf70c90802647e579",
+        "android_client_info": {
+          "package_name": "com.devpk.feedme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439509256956-a4oki3v1t9f5i82tp4s7v6t004psc0pp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devpk.feedme",
+            "certificate_hash": "67697d2d0231e12cca575d91fc7e98334a1ede4b"
+          }
+        },
+        {
+          "client_id": "439509256956-42l92687rmodl9adh9aj2enp9k5ol25a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi2e1vD6fT90e8hdfx6EyOu2fqhko8qUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439509256956-42l92687rmodl9adh9aj2enp9k5ol25a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

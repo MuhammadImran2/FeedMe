@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1948A">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-30dp"
+        android:src="@drawable/ttt1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt1"
+        android:layout_width="243dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/feed_me_"
+        android:textAlignment="center"
+        android:textAppearance="@style/feed_me_"
+        android:textColor="#F8C471"
+        android:textStyle="bold" />
+
+    <!-- WELCOME -->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="243dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/welcome"
+        android:textAppearance="@style/welcome"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="214dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_corner"
+        android:text="Get Started"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

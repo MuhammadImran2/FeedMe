@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Feed Me</string>
+    <!-- strings.xml -->
+    <string name="feed_me_">FEED ME!</string>
+    <!-- strings.xml -->
+    <string name="welcome">WELCOME</string>
+    <string name="food_poured">Food poured Today : \n10 times</string>
+
+</resources>
